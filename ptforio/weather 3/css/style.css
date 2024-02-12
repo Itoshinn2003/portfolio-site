@@ -1,0 +1,103 @@
+
+.l-header{
+    padding:30px 0 ;
+    border-bottom:1px solid rgb(235, 235, 235);
+    
+
+}
+.l-main{
+    min-height:100vh;
+    padding-bottom:50px;
+    background-color:rgb(243, 250, 255);
+
+}
+
+.l-search {
+    padding:100px 0;
+}
+.b-search__top{
+
+    margin-bottom:30px;
+}
+.b-search__alert{
+    color:rgb(211, 0, 0);
+    
+}
+.b-search__date-input , .b-search__prefecture-input , .b-search__city-input{
+    display:inline-block;
+    margin-bottom:20px;
+}
+.b-search__button{
+    display:block;
+    margin:0 auto;
+    background-color:black;
+    color:white;
+    padding:10px 20px;
+}
+
+
+.b-result__place{
+    margin-bottom:30px;
+}
+
+
+.b-result__list{
+    text-align:center;
+}
+
+.b-result__item{
+    
+    width:10%;
+    margin-bottom:20px;
+}
+.b-result__date{
+    margin-bottom:30px;
+}
+
+@media(max-width:860px){
+    .b-result__item{
+        width:12%;
+    }
+}
+@media(min-width:600px){
+    .b-result__list{
+        display:flex;
+        justify-content: center;
+        
+    }
+    .b-result__item_border{
+        border-right:1px solid rgb(235, 235, 235);
+    }
+}
+@media(max-width:600px){
+    .b-result__item{
+        margin:0 auto 30px;
+        display:flex;
+        justify-content: center;
+        
+    }
+    .b-result__item p{
+        margin-right:20px;
+    }
+    .b-result__item_border{
+        border-bottom:1px solid rgb(235,235,235);
+    }
+}
+
+
+
+
+
+
+
+
+
+.align-left{text-align:left}
+.align-center{text-align:center}
+.align-right{text-align:right}
+.align-top{vertical-align:top}
+.align-middle{vertical-align:middle}
+.align-bottom{vertical-align:bottom}
+.mb-1{
+    margin-bottom:100px;
+}

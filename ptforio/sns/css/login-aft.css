@@ -1,0 +1,62 @@
+
+html{
+    min-height: 100%;
+    position: relative;
+  }
+p{
+    margin:0;
+    padding:0;
+}
+.profile__img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    
+  }
+a{
+    text-decoration:none;
+    color:black;
+}
+.green-url{
+    color:white !important;
+}
+
+.profile__big{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.sidebar{
+    position:sticky;
+    top:2rem;
+}
+.scroll {
+    
+    overflow-y: scroll;
+    height: 400px;
+   
+    }
+    .scroll-home{
+        overflow-y:scroll;
+        height:60vh;
+    }
+.dm-notice{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    line-height:30px;
+}
+.icon::before {
+    font-family: “Font Awesome 5 Free”;
+    font-weight: 900;
+    content: “\f000”;
+    }
